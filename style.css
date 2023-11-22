@@ -72,3 +72,44 @@ p {
   font-size: 1.4rem;
   margin: 15px;
 }
+
+.read-more-btn { /* Styling for les-mer knapp */ 
+  background-color: #e6bd43;
+  color: #fff;
+  display: inline-block; 
+  padding: 1rem;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+#services-section { /* Seksjonen på index, med id services */
+  text-align: center;
+  padding: 2rem 0; 
+}
+#services-section p { /* Style for paragraf */
+  text-align: justify; 
+}
+
+
+#our-services-section { /* Seksjonen på about.html, med id our-service */
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#our-service-section p {  /* Style for paragraf */
+  text-align: justify;
+}
+
+#sec-about-section { /* Seksjonen for sec-about, med id about */ 
+   text-align: center;
+   padding: 2rem 0;
+}
+
+#sec-about-section p { /* Style for paragrafer */ 
+  text-align: justify;
+}
+
+#contact-section { /* Seksjonen på about, med id contact */
+  
+
+}
