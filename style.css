@@ -110,6 +110,27 @@ p {
 }
 
 #contact-section { /* Seksjonen på about, med id contact */
-  
-
+  background-color: green;
+  display: inline-block;
+  text-align: center;
+  padding: 2rem 0;
 }
+
+#contact-section p {
+  text-align: justify;
+}
+
+#clients-section { /* Seksjon på about, med id CLIENTS */ 
+
+background-color: #e6bd43;  
+flex-wrap: wrap;
+display: inline-block;
+text-align: center;
+padding: 2rem 0;
+font-size: 25px;
+}
+
+
+
+
+
