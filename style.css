@@ -126,6 +126,10 @@ main section article img {
   color: #333;
 }
 
+#main-navigation a:hover {
+  background-color: #e6bd43;
+}
+
 
 h1 {
   display: block;
