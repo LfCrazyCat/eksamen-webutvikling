@@ -271,8 +271,10 @@ footer a img {
   margin-right: 10px;
 }
 
+/* Copyright tekst */
 span {
   flex-grow: 1; /* for å midstille copyright teksten */
+  font-size: 15px; /* vil ha liten tekst */
 }
 
 
