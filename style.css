@@ -238,7 +238,9 @@ font-size: 25px;
 
 
 footer {
+  text-align: center;
   background-color:#252525;
+  color: white;
   padding: 2rem;
 }
 
