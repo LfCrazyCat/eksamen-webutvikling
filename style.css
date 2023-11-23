@@ -186,7 +186,12 @@ p {
    padding: 2rem 0;
 }
 
-#sec-about-section p { /* Style for paragrafer */ 
+#sec-about img {
+  max-width: 350px;
+  min-width: 200px;
+}
+
+#sec-about p { /* Style for paragrafer */ 
   text-align: justify;
 }
 
