@@ -183,14 +183,18 @@ p {
   text-align: justify;
 }
 
-#contact-section { /* Seksjonen på about, med id contact */
+#contact-us {
+
+}
+
+#contact-us-section { /* Seksjonen på about, med id contact */
   background-color: green;
   display: inline-block;
   text-align: center;
   padding: 2rem 0;
 }
 
-#contact-section p {
+#contact-us-section p {
   text-align: justify;
 }
 
