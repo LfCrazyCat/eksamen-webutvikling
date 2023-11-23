@@ -44,7 +44,7 @@ nav { /* vil ha lik bredde av alt innhold på siden */
   align-items: center; 
   min-height: 10vh; 
   background-color: white; 
-  max-width: 1350px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
