@@ -204,6 +204,37 @@ padding: 2rem 0;
 font-size: 25px;
 }
 
+/* SEKSJONENE PÅ PRODUCTS.HTML */
+#branding,
+#design,
+#development {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#branding section,
+#design section,
+#development section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#branding article,
+#design article,
+#development article {
+  flex: 1;
+  max-width: 350px;
+  min-width: 200px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+
 
 
 footer {
