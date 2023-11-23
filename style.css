@@ -13,10 +13,8 @@ body {
 }
 
 #logo {
-  height: 70px;
-  position: absolute;
-  left: 35px;
-  top: 35px;
+  max-width: 100%;
+  height: auto;
 }
 
 header {
@@ -206,34 +204,16 @@ padding: 2rem 0;
 font-size: 25px;
 }
 
-/* SEKSJONEN DESIGN */
-#design {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  max-width: 1200px;
-  margin: auto;
-}
 
-#design section {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-#design article {
-  flex: 1;
-  max-width: 350px;
-  min-width: 200px;
-  border: 1px solid #ddd; 
-  padding: 10px;
-  margin: 10px;
-}
 
 footer {
   background-color:#252525;
   padding: 2rem;
+}
+
+#footer-logo {
+  max-width: 100px;
+  margin-right: 10px;
 }
 
 /* KILDER LIGGER I DOKUMENT */
@@ -264,6 +244,53 @@ footer {
   background: #007bb5;
   color: white;
 }
+
+/* Media quieries / responsitvt design / Mobile first */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  #branding article,
+  #design article, 
+  #developement article {
+    max-width: 100%;
+  }
+}
+
+
+
+/* 
+/* SEKSJONEN DESIGN *
+#design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#design section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#design article {
+  flex: 1;
+  max-width: 350px;
+  min-width: 200px;
+  border: 1px solid #ddd; 
+  padding: 10px;
+  margin: 10px;
+} */
+
 
 
 
