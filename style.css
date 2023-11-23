@@ -242,26 +242,38 @@ font-size: 25px;
 
 
 footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
   text-align: center;
   background-color:#252525;
   color: white;
   padding: 2rem;
 }
 
+/* Størrelse, style for font awesome ikoner */
+footer a img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+
+
 #footer-logo {
   max-width: 100px;
   margin-right: 10px;
 }
 
-/* KILDER LIGGER I DOKUMENT */
-.fa { /* Lenker til sosiale medier i FOOTER */ 
+/* KILDER LIGGER I DOKUMENT *
+.fa { /* Lenker til sosiale medier i FOOTER *
   padding: 15px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-}
+} */
+
 
 .fa:hover {
   opacity: 0.7;
