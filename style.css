@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial(sans-serif);
   margin: 0;
   background-color: #dd9393; 
 }
@@ -295,6 +295,14 @@ footer {
     max-width: 100%;
   }
 }
+
+/* Skjermer som er MINST 768px og bredere */ 
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex; 
+  }
+}
+
 
 
 
