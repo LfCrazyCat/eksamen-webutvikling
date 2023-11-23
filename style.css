@@ -191,9 +191,8 @@ p {
 }
 
 
-#our-services-section { /* Seksjonen på about.html, med id our-service */
-  text-align: center;
-  padding: 2rem 0;
+#our-services { /* Seksjonen på about.html, med id our-service */
+  display: inline-flex;
 }
 
 #our-service-section p {  /* Style for paragraf */
