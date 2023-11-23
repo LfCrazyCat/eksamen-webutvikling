@@ -206,6 +206,31 @@ padding: 2rem 0;
 font-size: 25px;
 }
 
+/* SEKSJONEN DESIGN */
+#design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0auto;
+}
+
+#design section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#design article {
+  flex: 1;
+  max-width: 350px;
+  min-width: 200px;
+  border: 1px solid #ddd; 
+  padding: 10px;
+  margin: 10px;
+}
+
 footer {
   background-color:#252525;
   padding: 2rem;
