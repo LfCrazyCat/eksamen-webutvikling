@@ -213,7 +213,7 @@ font-size: 25px;
   align-items: center;
   height: 100vh;
   max-width: 1200px;
-  margin: 0auto;
+  margin: auto;
 }
 
 #design section {
