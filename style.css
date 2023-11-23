@@ -20,10 +20,12 @@ body {
   height: auto;
 }
 
-header {
+header { /* vil ha alt av innhold på lik bredde */
   text-align: center; 
   background-size: cover; 
   padding: 0 0 1rem 0;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 header nav ul {
@@ -36,20 +38,22 @@ header nav span a {
   text-transform: uppercase;
 }
 
-nav {
+nav { /* vil ha lik bredde av alt innhold på siden */
   display: flex;
   justify-content: space-around; 
   align-items: center; 
   min-height: 10vh; 
   background-color: white; 
+  max-width: 1350px;
+  margin: 0 auto;
 }
 
 .nav-links {
   display: flex;
   position: relative;
   justify-content: space-around;
-  width: 15%;
-  margin-right: -25%;
+  width: 10%;
+  margin-right: 0%;
   margin-left: 0%;
 }
 
