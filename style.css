@@ -272,9 +272,11 @@ footer a img {
 
 
 #footer-logo {
-  max-width: 100px;
-  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
 }
+
 
 /* Copyright tekst */
 span {
