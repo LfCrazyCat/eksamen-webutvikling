@@ -9,7 +9,7 @@ html {
 body {
   font-family: Arial(sans-serif);
   margin: 0;
-  background-color: #dd9393; 
+  background-color: white; 
 }
 
 #logo {
@@ -264,35 +264,12 @@ footer a img {
   margin-right: 10px;
 }
 
-/* KILDER LIGGER I DOKUMENT *
-.fa { /* Lenker til sosiale medier i FOOTER *
-  padding: 15px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-} */
-
-
-.fa:hover {
-  opacity: 0.7;
+span {
+  flex-grow: 1; /* for å midstille copyright teksten */
 }
 
-.fa-facebook { /* Faceook ikon */
-  background: #3B5998;
-  color: white;
-}
 
-.fa-instagram {
-  background: #125688;
-  color: white; 
-}
 
-.fa-linkedin { /* Linkedin ikon */
-  background: #007bb5;
-  color: white;
-}
 
 /* Media quieries / responsitvt design / Mobile first */
 @media screen and (max-width: 768px) {
