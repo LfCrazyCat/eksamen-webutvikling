@@ -229,6 +229,48 @@ p {
 
 
 
+#newsletter-container {
+  background-color: #f8f3f3;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+#container {
+  display: inline-block; 
+  width: 100%; 
+  max-width: 1600px;
+}
+
+.newsletter-form {
+  border: 0px solid #ccc;
+  font-size: 10px;
+
+}
+.container {
+  height: 15em;
+  width: 50em;
+  padding: 20px;
+  font-size: 10px;
+}
+.form-group {
+  display: inline-block; 
+  align-items: center; 
+}
+.email-input {
+  margin-right: 50px;
+  font-size: 10px;
+}
+
+.signupbtn {
+  display: inline-block;
+  margin-top: 1px;
+
+   
+}
+
+
+
 
 
 #contact-us {
@@ -393,10 +435,12 @@ footer a img {
   width: 24px;
   height: 24px;
   margin: 0 10px;
+  background-color: white;
 }
 
 
 #footer-logo {
+  background-color: none;
   width: 60px;
   height: 60px;
   margin: 0 10px;
