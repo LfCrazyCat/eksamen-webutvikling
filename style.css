@@ -184,6 +184,11 @@ p {
   text-decoration: none;
   margin: 2rem auto;
   font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 20px 35px;
+  font-size: 26px
+  
 }
 
 /* Seksjon Headliner i index.html */ 
@@ -196,6 +201,13 @@ p {
 #our-company-about {
   display: grid; 
   border-style: solid;
+}
+
+#our-company-about .read-more-btn {
+  background-color: white;
+  color: black; 
+  border-style: solid;
+  font-weight: bold;
 }
 
 #services-section { /* Seksjonen på index, med id services */
@@ -214,6 +226,8 @@ p {
 #our-service-section p {  /* Style for paragraf */
   text-align: justify;
 }
+
+
 
 
 
