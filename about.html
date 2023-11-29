@@ -3,14 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <link rel="stylesheet" href="img/fontawesome-free-6.4.2-web/">
 
   <meta property="og:title" content="About til eksamen i Webutvikling" />
   <meta property="description" content="Abou.html side til eksamen høsten 2023" />
   <meta property="og:image" content="#" />
   <meta property="og:type" content="articles about us" />
-  <meta property="og:image" content="#" />
+
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="img/fontawesome-free-6.4.2-web/">
+
+  <link rel="stylesheet" href="path-to-fontawesome/fontawesome-free-6.4.2-web/css/all.min.css">
   <title>About</title>
 </head>
 <body>
@@ -55,85 +58,77 @@
 
 
     <!-- Seksjon for our services-->
-    <section id="our-services">
-      <h2>Our</h2>
-      <article> 
-        <h2>Branding</h2>
-        <a href="#">Branding0</a>
+    <section class="container">
+      <h2>Our Services</h2>
+        <article>
+          <a href="#">
+            <img src="img/icons-download/people-group-solid.svg" alt="nedlastet ikon av et gruppe mennesker fra Font awesome">
+          </a> 
+          <!--  <figcaption> -->
+            <h3>Branding</h3>
+            <p>Lorem ipsum dolor sit amet, ea duo tractatos neglegentur necessitatibus. </p>
+          
+        </article>
+        
+        <article>
+          <a href="#">
+            <img src="img/icons-download/cloud-arrow-down-solid.svg" alt="nedlastet ikon av en skytjeneste som laster nd, fra Font awesome">
+          </a> 
+          <!-- 
+          <figcaption> -->
+            <h3>Branding</h3>
+            <p>Lorem ipsum dolor sit amet, ea duo tractatos neglegentur necessitatibus. </p>
+         
+        </article>
 
-      </article>
+        <article>
+          <a href="#">
+            <img src="img/icons-download/code-solid.svg" alt="nedlastet ikon av en kodesnutt fra font awesome">
+          </a>
+            <h3>Branding</h3>
+            <p>Lorem ipsum dolor sit amet, ea duo tractatos neglegentur necessitatibus. </p>
+        </article>
 
-
-      <article>
-        <h2>Branding</h2>
-        <a href="#">Branding1</a>
-
-      </article>
-
-
-      <article>
-        <h2>Branding</h2>
-        <a href="#">Branding2</a>
-
-      </article>
-
-
-      <article>
-        <h2>Branding</h2>
-        <a href="#">Branding3</a>
-
-      </article>
-    </section>
+         <article>
+          <a href="#">
+            <img src="img/icons-download/wifi-solid.svg" alt="nedlastet ikon av wifi symbol fra font awesome">
+          </a> 
+         <!-- <figcaption> -->
+            <h3>Branding</h3>
+            <p>Lorem ipsum dolor sit amet, ea duo tractatos neglegentur necessitatibus. </p>
+          
+        </article>  
+ </section>
 
     <!-- Seksjon om våre clients- SOME OF OUR CLIENTS -->
     <section id="clients">
       <h2>Some of our clients</h2>
-      <article>         <!-- CLIENT ONE-->
-        <h3>Client1</h3>
-        <a href="#">LOGO</a>
-      </article>
+      <article>
+        <img src="img/logo1.png" alt="logo eksempe som følger mappen av logo1">  <!-- CLIENT ONE-->
+      
 
-      <article>           <!-- CLIENT TWO-->
-        <h3>Client2</h3>
-        <a href="#">LOGO</a>  
-      </article>
+     
+        <img src="img/logo2.png" alt="logo eksempel som følger mappen av logo2">  <!-- CLIENT TWO-->
+      
 
-      <article>           <!-- CLIENT THREE-->
-        <h3>Client3</h3>
-        <a href="#">LOGO</a>
+      
+        <img src="img/logo3.png" alt="logo eksempel som følger mappen av logo2">  <!-- CLIENT THREE-->
+
       </article>
-    </section>
+     
+
+      
+      
+      </section>
     <!-- Avslutter seksjonen - SOME OF OUR CLIENTS-->
    
 
  <section id="contact-us">
   <h2>Contact us</h2>
-  <article>
-    <!-- 
-    <form>
-      <fieldset>
-        <ol>
-          <legend id="messageLegend">Send us a message</legend> <br>
-          <label for="name">Name </label> 
-          <input type="text" id="name" name="name"> <br>
-          <label for="subject">Subject </label> 
-          <input type="text" id="subject" name="subject"> <br>
-          <textarea name="message" rows="4" cols="20">
-          </textarea> 
-          <label for="message">Message</label> <br>
-          <input type="submit" value="Send message" name="submit"> <br>
-        
-        </ol>
-      </fieldset>
-    </form>
-  -->
 
-  
-    
 
-</article> --
 <article>
-  <h3>Contact information</h2>
+  <h3>Contact information</h3>
   <address>     <!-- Ikon for teløfonnummer, hentet fra W3 school -->
     <span style='font-size:20px;'>&#128383; 69 60 80 00</span> <br>
 
@@ -141,10 +136,11 @@
     <span style='font-size: 20px;'>&#128231; postmottak@hiof.no</span> <br>
 
     <!-- Ikon for adresse, hentet fra W3 school -->
-    <span style='font-size: 20px;'>&#128392; BRA veien 4 1757 Halden</span> <br></address>
+    <span style='font-size: 20px;'>&#128392; BRA veien 4 1757 Halden</span> <br>
+  </address>
 </article>
   
-      </section>
+      
       <article>
         <form>
           <input name="name" type="text" class="feedback-input" placeholder="Ola Nordmann..." />
@@ -154,16 +150,18 @@
         </form>
       </article>
 
+    </section>
+
 
    
 <!-- Div fordi jeg ikke ønsker å opprette egen seksjon -->
-    <div class="google-map">
-              <!-- Google maps link som viser kartet over høgskolen -->
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.188276543453!2d11.350228377856565!3d59.129250227019355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1701020012186!5m2!1sno!2sno" 
-              width="1600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
    
+      <section class="google-map"> <!-- Google maps link som viser kartet over høgskolen -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.188276543453!2d11.350228377856565!3d59.129250227019355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1701020012186!5m2!1sno!2sno" 
+        width="1600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </section>
+              
 
   </main>
   <footer>
