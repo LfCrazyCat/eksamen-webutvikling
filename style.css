@@ -2,9 +2,7 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: calc(1em + 1vw);
-}
+
 
 body {
   font: arial;
@@ -20,7 +18,7 @@ body {
   height: auto;
 }
 
-header { /* vil ha alt av innhold på lik bredde */
+header { 
   text-align: center; 
   background-size: cover; 
   padding: 0 0 1rem 0;
@@ -38,7 +36,7 @@ header nav span a {
   text-transform: uppercase;
 }
 
-nav { /* vil ha lik bredde av alt innhold på siden */
+nav { 
   display: flex;
   justify-content: space-around; 
   align-items: center; 
@@ -81,31 +79,19 @@ nav { /* vil ha lik bredde av alt innhold på siden */
 
 
 nav a {
-  text-decoration: none; /* ingen dekor rundt tekst-linkene */
-  color: black; /* Sort tekst */
-  padding: 1rem; /* Avstand rundt lenkene */
-  display: inline-block; /* Lenkene står ved siden av hverandre */
+  text-decoration: none; 
+  color: black; 
+  padding: 1rem; 
+  display: inline-block; 
 }
 
 main {
-  text-align: center; /* Tekstens hovedinnhold er senterjustert */ 
+  text-align: center; 
 }
 
 
 main section h2 {
-  margin: 2rem 0; /* avstand til bunnen og toppen av underoverskrift */ 
-}
-
-article {
-  max-width: 1600px;
-  min-width: 500px;
-  width: 100%;
-  margin: 1rem auto;
-  background-color: #ddd6d6;
-}
-
-main section article img {
-  width: 100%;
+  margin: 2rem 0; 
 }
 
 #main-navigation {
